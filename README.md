@@ -3,6 +3,7 @@
 
 Before writing any tests, it’s important to know the basics. What do you need to test?
 Generally, tests should cover:
+   
     ▪    Core functionality: Model classes and methods and their interactions with the controller
     ▪    The most common UI workflows
     ▪    Boundary conditions
@@ -10,10 +11,11 @@ Generally, tests should cover:
 
 # Unit Test
 Effective unit tests criteria are:
+    
     ▪    Fast: Tests should run quickly.
     ▪    Independent/Isolated: Tests should not share state with each other.
-    ▪    Repeatable: You should obtain the same results every time you run a test. External data providers or concurrency issues could cause intermittent failures.
-    ▪    Self-validating: Tests should be fully automated. The output should be either “pass” or “fail”, rather than rely on a programmer’s interpretation of a log file.
+    ▪    Repeatable: You should obtain the same results every time you run a test. External data providers or concurrency              issues could cause intermittent failures.
+    ▪    Self-validating: Tests should be fully automated. The output should be either “pass” or “fail”, rather than rely on a          programmer’s interpretation of a log file.
     ▪    Timely: Ideally, tests should be written before you write the production code they test (Test-Driven Development).
         
 # UI Test
