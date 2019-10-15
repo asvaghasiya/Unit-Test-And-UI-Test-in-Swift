@@ -1,5 +1,5 @@
 
-#  How to write Unit test and UItest in Swift iOS?
+#  How to write Unit test and UITest in Swift iOS?
 
 Before writing any tests, it’s important to know the basics. What do you need to test?
 Generally, tests should cover:
